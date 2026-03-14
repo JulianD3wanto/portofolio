@@ -15,7 +15,7 @@ import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import ProjectModalCertificates from "./components/ProjectModalCertificates/ProjectModalCertificates";
-import SimpleProfileCard from "./components/SimpleProfileCard/SimpleProfileCard.jsx";
+
 
 
 // ..
