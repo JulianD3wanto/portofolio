@@ -15,6 +15,7 @@ import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import ProjectModalCertificates from "./components/ProjectModalCertificates/ProjectModalCertificates";
+import JulianImage from "/assets/Julian.jpeg";
 
 
 
@@ -55,7 +56,7 @@ useEffect(() => {
 
   const aboutRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-
+  
   const [selectedProject, setSelectedProject] = useState(null); // null = modal tertutup
   const [selectedExperience, setSelectedExperience] = useState(null); // null = modal tertutup
   const [selectedCertificate, setSelectedCertificate] = useState(null); // null = modal tertutup
@@ -160,8 +161,8 @@ useEffect(() => {
 
           </div>
             <div className="hero-photo-wrap">
-  <img
-  src={`${import.meta.env.BASE_URL}assets/Julian.jpeg`}
+<img
+  src={JulianImage}
   alt="Julian Dewanto"
   className="hero-photo"
 />
