@@ -674,11 +674,11 @@ In addition to software development, I gained new knowledge in IT risk managemen
   <button
     onClick={scrollToTop}
     className="fixed bottom-6 right-6 z-50 p-4 rounded-full 
-bg-[#0f2a1b] border border-emerald-400/40 
-text-emerald-300 
-shadow-[0_0_20px_rgba(52,211,153,0.7)] 
-hover:shadow-[0_0_40px_rgba(52,211,153,1)] 
-hover:scale-110 transition-all duration-300 backdrop-blur-md"
+    bg-[#0f2a1b] border border-emerald-400/40 
+    text-emerald-300 
+    shadow-[0_0_20px_rgba(52,211,153,0.7)] 
+    hover:shadow-[0_0_40px_rgba(52,211,153,1)] 
+    hover:scale-110 transition-all duration-300 backdrop-blur-md"
   >
     <FiArrowUp size={20} />
   </button>

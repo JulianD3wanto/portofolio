@@ -373,7 +373,7 @@ import Badgedicoding from "/assets/badges/dicoding.png";
 
 
 // list certificates
-import Certificates1 from "/assets/certificates/bnsp.jpg";
+import Certificates1 from "/assets/certificates/sertificate_bnsp.jpg";
 import Certificates2 from "/assets/certificates/det.jpg";
 import Certificates3 from "/assets/certificates/bangkit.png";
 import Certificates4 from "/assets/certificates/petro.jpg";
