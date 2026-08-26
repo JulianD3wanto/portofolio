@@ -210,6 +210,7 @@ import Proyek3 from "/assets/proyek/pandoe.png";
 import Proyek from "/assets/proyek/proyek 1-1.png";
 import Proyek5 from "/assets/proyek/cekhoaksidn.png";
 import Proyek6 from "/assets/proyek/nidejia.png";
+import Proyek7 from "/assets/proyek/miningsight.png";
 
 export const listProyek = [
   {
@@ -285,6 +286,18 @@ export const listProyek = [
     url: "https://github.com/JulianD3wanto/nidejiarenthouse",
     demoUrl: "https://nidejiarenthouse.my.id",
     maintenanceNote: "This website is under maintenance",
+    dad: "600",
+  },
+  {
+    id: 7,
+    image: Proyek7,
+    title: "MineSight — Smart Mining Command Center",
+    subtitle: "MineSight is a real-time mining operations command center...",
+    fullDescription:"MineSight is a real-time mining operations command center that monitors production, equipment, safety, and environmental conditions across open-pit mining sites.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #3B82F6, #000)",
+    url: "https://github.com/JulianD3wanto/minesight-command-center",
+    demoUrl: "https://minesight.my.id",
     dad: "600",
   },
 ];
@@ -370,6 +383,7 @@ import Badgedet from "/assets/badges/det.png";
 import Badgepandoe from "/assets/badges/pandoe.jpeg";
 import Badgemagenta from "/assets/badges/magenta.png";
 import Badgedicoding from "/assets/badges/dicoding.png";
+import BadgeDiskominfo from "/assets/badges/diskominfo.png";
 
 
 // list certificates
@@ -377,7 +391,7 @@ import Certificates1 from "/assets/certificates/sertificate_bnsp.jpg";
 import Certificates2 from "/assets/certificates/magentajulian.jpg";
 
 import Certificates3 from "/assets/certificates/bangkit.png";
-import Certificates4 from "/assets/certificates/petro.jpg";
+import Certificates4 from "/assets/certificates/diskominfo.jpg";
 import Certificates5 from "/assets/certificates/Pengembangan Aplikasi Andro Intermediate.jpg";
 import Certificates6 from "/assets/certificates/Penerapan Machine Learn Andro.jpg";
 import Certificates7 from "/assets/certificates/Pemrograman Kotlin.jpg";
@@ -387,6 +401,7 @@ import Certificates10 from "/assets/certificates/Prinsip Pemrograman SOLID.jpg";
 import Certificates11 from "/assets/certificates/Pemrograman Web.jpg";
 import Certificates12 from "/assets/certificates/Dasar AI.jpg";
 import Certificates13 from "/assets/certificates/det.jpg";
+import Certificates14 from "/assets/certificates/petro.jpg";
 
 export const listCertificates = [
   {
@@ -398,7 +413,7 @@ export const listCertificates = [
     fullDescription: "BNSP (National Professional Certification Agency) certificate is an official document recognizing national-level work competencies issued by BNSP-licensed LSP (Professional Certification Institutions). This certificate proves that a person is an expert in their field, enhances career competitiveness, is valid for 3 years, and is applicable in various industries.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://lsp.uns.ac.id/sipaling/",
+    url: "https://drive.google.com/file/d/1q_ybAVX1mxQXbkPI0IHW52Hz1SgnD4tM/view?usp=sharing",
     dad: "100",
     badges: [
       { icon: Badgebnsp, text: "BNSP" },
@@ -415,7 +430,7 @@ export const listCertificates = [
     fullDescription: "MAGENTA BUMN is an internship program that provides university students and fresh graduates with opportunities to gain professional work experience in Indonesian State-Owned Enterprises. The program allows participants to apply their academic knowledge in real working environments, develop professional and interpersonal skills, and gain a better understanding of the working culture in BUMN companies. It is also designed to prepare young Indonesian talents for their future careers.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://magentaku.id/c/pkg",
+    url: "https://drive.google.com/file/d/1w69FUPmpPY9vzyl8Xw6kv78oXNG-sp1c/view?usp=sharing",
     dad: "100",
     previewHeight: "h-[620px]",
 
@@ -451,18 +466,18 @@ export const listCertificates = [
     id: 4,
     image: Certificates4,
     className: "certificate-card",
-    title: "Certificate Extended MAGENTA BUMN at PT.Petrokimia Gresik",
-    subtitle: "This memorandum, awarded by Vice President(VP) Risk Manajemen.",
-    fullDescription: "This certificate, awarded by PT Petrokimia Gresik, recognizes Julian Dewanto’s successful completion of a 6-month program, and he is currently participating in the MAGENTA BUMN extension program at PT.Petrokimia Gresik. The certificate was presented by the Vice President of Risk Management at PT Petrokimia Gresik on September 30, 2024. This award highlights Julian’s dedication to professional development and his commitment to excellence in his field.",
+    title: "Certificate Dinas Komunikasi dan Informatika Statistik dan Persandian Surakarta",
+    subtitle: "This certificate, awarded by Kepala Bidang DISKOMINFO.",
+    fullDescription: "This certificate, awarded by DISKOMINFO, recognizes Julian Dewanto’s successful completion of a 2-month program, and he is currently participating in the Dinas Komunikasi dan Informatika Statistik dan Persandian Surakarta internship program. The certificate, signed by Kepala Bidang DISKOMINFO, serves as official documentation of his participation and achievement in the program.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://magentaku.id/c/pkg",
+    url: "https://drive.google.com/file/d/1AoKfPvDdk234zivfEcfDEo4emowb8ALq/view?usp=sharing",
     dad: "100",
     previewHeight: "h-[620px]",
 
     badges: [
-      { icon: Badgemagenta,
-        text: "MAGANG GENERASI BERTALENTA "
+      { icon: BadgeDiskominfo,
+        text: "Dinas Komunikasi dan Informatika"
         },
     ],
 
@@ -650,6 +665,28 @@ export const listCertificates = [
     badges: [
       { icon: Badgedet, text: "Duolinggo English Test" },
     ],
+
+  },
+
+  {
+    id: 14,
+    image: Certificates14,
+    className: "certificate-card",
+    title: "Certificate Extended MAGENTA BUMN at PT.Petrokimia Gresik",
+    subtitle: "This recommendation contract by Vice President(VP) Risk Manajemen.",
+    fullDescription: "This memorandum, awarded by PT Petrokimia Gresik, recognizes Julian Dewanto’s successful completion of a 6-month program, and he is currently participating in the MAGENTA BUMN extension program at PT.Petrokimia Gresik. The memorandum extend contract was presented by the Vice President of Risk Management at PT Petrokimia Gresik on Januari 22, 2026. This memorandum recomendation contract highlights Julian’s dedication to professional development and his commitment to excellence in his field.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://magentaku.id/c/pkg",
+    dad: "100",
+    previewHeight: "h-[620px]",
+
+    badges: [
+      { icon: Badgemagenta,
+        text: "MAGANG GENERASI BERTALENTA "
+        },
+    ],
+
 
   },
   
