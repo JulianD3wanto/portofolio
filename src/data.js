@@ -374,7 +374,8 @@ import Badgedicoding from "/assets/badges/dicoding.png";
 
 // list certificates
 import Certificates1 from "/assets/certificates/sertificate_bnsp.jpg";
-import Certificates2 from "/assets/certificates/det.jpg";
+import Certificates2 from "/assets/certificates/magentajulian.jpg";
+
 import Certificates3 from "/assets/certificates/bangkit.png";
 import Certificates4 from "/assets/certificates/petro.jpg";
 import Certificates5 from "/assets/certificates/Pengembangan Aplikasi Andro Intermediate.jpg";
@@ -385,6 +386,7 @@ import Certificates9 from "/assets/certificates/Membuat Aplikasi Andro Pemula.jp
 import Certificates10 from "/assets/certificates/Prinsip Pemrograman SOLID.jpg";
 import Certificates11 from "/assets/certificates/Pemrograman Web.jpg";
 import Certificates12 from "/assets/certificates/Dasar AI.jpg";
+import Certificates13 from "/assets/certificates/det.jpg";
 
 export const listCertificates = [
   {
@@ -408,17 +410,21 @@ export const listCertificates = [
     id: 2,
     image: Certificates2,
     className: "certificate-card",
-    title: "Duolingo English Test (DET) Certificate",
-    subtitle: "Got result 135 (CEFR C2) equivalent IELTS 7",
-    fullDescription: "The Duolingo English Test is designed to assess your English language proficiency through a variety of tasks. Got result 135 (CEFR C2) equivalent IELTS 7 see the detail below.",
+    title: "Certificate Completed MAGENTA BUMN at PT.Petrokimia Gresik",
+    subtitle: "MAGENTA BUMN stands for Magang Generasi Bertalenta BUMN.",
+    fullDescription: "MAGENTA BUMN is an internship program that provides university students and fresh graduates with opportunities to gain professional work experience in Indonesian State-Owned Enterprises. The program allows participants to apply their academic knowledge in real working environments, develop professional and interpersonal skills, and gain a better understanding of the working culture in BUMN companies. It is also designed to prepare young Indonesian talents for their future careers.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://englishtest.duolingo.com/scores",
+    url: "https://magentaku.id/c/pkg",
     dad: "100",
+    previewHeight: "h-[620px]",
 
     badges: [
-      { icon: Badgedet, text: "Duolinggo English Test" },
+      { icon: Badgemagenta,
+        text: "MAGANG GENERASI BERTALENTA "
+        },
     ],
+
 
   },
 
@@ -625,6 +631,24 @@ export const listCertificates = [
       { icon: Badgedicoding,
         text: "Dicoding Academy"
         },
+    ],
+
+  },
+
+  {
+    id: 13,
+    image: Certificates13,
+    className: "certificate-card",
+    title: "Duolingo English Test (DET) Certificate",
+    subtitle: "Got result 135 (CEFR C2) equivalent IELTS 7",
+    fullDescription: "The Duolingo English Test is designed to assess your English language proficiency through a variety of tasks. Got result 135 (CEFR C2) equivalent IELTS 7 see the detail below.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://englishtest.duolingo.com/scores",
+    dad: "100",
+
+    badges: [
+      { icon: Badgedet, text: "Duolinggo English Test" },
     ],
 
   },
