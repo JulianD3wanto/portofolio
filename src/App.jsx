@@ -164,7 +164,17 @@ useEffect(() => {
             </div>
 
             <BlurText
-              text="A fresh graduate currently working in the BUMN sector as an IT Intern in the Risk Management Department at PT Petrokimia Gresik. Gained knowledge in IT fields such as framework ASP.NET, MSSQL and javascript and risk management, including IT risk management, auditing, ICoFR, KRI (Key Risk Indicator), RTM (Risk Treatment Matrix), and RCSA (Risk Control Self-Assessment). I also participated in the Bangkit Program led by Google, Tokopedia, and Traveloka as a Mobile Developer. Previously, I completed an internship at the Department of Communication, Informatics, Statistics, and Cyber Security of Surakarta City as a Full-Stack Web Developer. I am a passionate application, web developer and Artificial Intelligence dedicated to creating modern, useful, high-performance digital solutions and delivering innovative, user-friendly experiences that contribute to business and technological advancement."
+              text="Informatics Engineering graduate from Universitas Sebelas Maret (UNS) with a cumlaude GPA and
+granted programmer certification from BNSP (Badan Nasional Sertifikasi Profesi). Experienced across
+BUMN companies, government institutions, and technology programs. Selected trough competitive field
+with an acceptance rate 1.04% of over 5,000 applicants in Magang Generasi Bertalenta (MAGENTA) BUMN
+program as an Information Technology at the Risk Management Department of PT Petrokimia Gresik,
+responsible for developing and maintaining SIMAR (Sistem Manajemen Risiko). Previously worked as a Full
+Stack Developer Intern at Dinas Komunikasi Informatika Statistik dan Persandian Kota Surakarta, contributing
+to the development SOLID platform digital letter management system for citizens of Surakarta. Selected as a
+Mobile Development cohort in Google Bangkit Academy, contributing to the development of Pandoe, a
+platform supporting Indonesian entrepreneurs. Passionate about leveraging technology to support digital
+transformation and delivering impactful solutions."
               delay={150}
               animateBy="words"
               direction="top"
@@ -239,7 +249,7 @@ useEffect(() => {
           About Me
         </h2>
                 <BlurText
-                  text="Julian Dewanto is an Informatics fresh graduate from Universitas Sebelas Maret (UNS) with a cum laude GPA and a Certified Programmer from the Badan Nasional Sertifikasi Profesi (BNSP). Currently enrolled in the Magang Generasi Bertalenta (MAGENTA) BUMN program as an Informatics Intern at Departement Risk Management PT Petrokimia Gresik, a six-month internship program and got recomendation extended from VP departement as IT intern at Departement Manajemen Risiko until present, focusing on developing and maintaining website sistem manajemen risiko utilize tech stack .ASP.NET Core, MSSQL and JavaScript.
+                  text="Julian Dewanto is an Informatics graduate from Universitas Sebelas Maret (UNS) with a cum laude GPA and a Certified Programmer from the Badan Nasional Sertifikasi Profesi (BNSP). Currently enrolled in the Magang Generasi Bertalenta (MAGENTA) BUMN program as an Informatics Intern at Departement Risk Management PT Petrokimia Gresik, a six-month internship program and got recomendation extended from VP departement as IT intern at Departement Manajemen Risiko until present, focusing on developing and maintaining website sistem manajemen risiko utilize tech stack .ASP.NET Core, MSSQL and JavaScript.
 Previously, I worked as a Full-Stack Developer Intern at the Department of Communication, Informatics, Statistics, and Encryption of Surakarta City, where I contributed to the development and maintenance of the Surakarta government web portal.
 
 I was also selected for the Bangkit Academy program led by Google, Tokopedia, Gojek, and Traveloka as a Mobile Development cohort, where I contributed to developing Pandoe, a platform designed to support Indonesian entrepreneurs in their business journey.

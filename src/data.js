@@ -205,19 +205,22 @@ export const listAwards = [
 
 import Proyek1 from "/assets/proyek/proyek1.jpg";
 import Proyek4 from "/assets/proyek/simar.png";
-import Proyek2 from "/assets/proyek/seminargo.png";
+import Proyek10 from "/assets/proyek/seminargo.png";
 import Proyek3 from "/assets/proyek/pandoe.png";
 import Proyek from "/assets/proyek/proyek 1-1.png";
 import Proyek5 from "/assets/proyek/cekhoaksidn.png";
 import Proyek6 from "/assets/proyek/nidejia.png";
 import Proyek7 from "/assets/proyek/miningsight.png";
+import Proyek8 from "/assets/proyek/ccnanetwork.png";
+import Proyek9 from "/assets/proyek/misbnsp.png";
+import Proyek2 from "/assets/proyek/solidsurakarta.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek4,
-    title: "Sistem Manajemen Risiko (SIMAR)",
-    subtitle: "Simar v2 (Risk Management System) is an upgraded version of Simar v1, based on a web platform...",
+    title: "Sistem Manajemen Risiko (SIMAR) - PT. Petrokimia Gresik",
+    subtitle: " Simar System used to monitor and evaluate all potential risks that may occur within each work unit, compartment, or department, as well as among employees at PT. Petrokimia Gresik.",
     fullDescription:"Simar v2 (Risk Management System) is an upgraded, web-based version of Simar v1. This system is used to monitor and evaluate all potential risks that may occur within each work unit, compartment, or department, as well as among employees at PT. Petrokimia Gresik.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
@@ -227,23 +230,25 @@ export const listProyek = [
     networkNote: "Accessible only through Petrokimia network or VPN",
     dad: "400",
   },
+
   {
     id: 2,
     image: Proyek2,
-    title: "Seminar GO",
-    subtitle: "SeminarGO is an educational event platform for seminars and webinars...",
-    fullDescription:"SeminarGO is an educational event platform for seminars and webinars. It allows users to browse, explore, and register for various events — both paid and free — covering topics like technology, business, and personal development.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/JulianD3wanto/seminar-laravel",
-    demoUrl: "https://seminargo.my.id",
-    dad: "200",
+    title: "Solid Surakarta - Digital Letter Management System",
+    subtitle: "SOLID is Surakarta's official digital portal for requesting government letters and administrative documents online. Alleviate citizens surakarta from the hassle of visiting government offices in person.",
+    fullDescription:"SOLID is Surakarta's online portal for requesting, verifying, and downloading official government documents - 25 Services (SKTM, surat nikah, pengantar SKCK, domisili, keterangan usaha, etc).",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #3B82F6, #000)",
+    url: "https://github.com/JulianD3wanto/solid-portal-surakarta",
+    demoUrl: "http://solid-surakarta.my.id/",
+    dad: "600",
   },
+
   {
     id: 3,
     image: Proyek3,
-    title: "Pandoe",
-    subtitle: "Pandoe is a mobile-based application integrated machine learning...",
+    title: "Pandoe - Mobile Application for Entrepreneurs",
+    subtitle: "Pandoe is a mobile-based application integrated with machine learning designed to help Indonesian entrepreneurs to start, manage, and grow a business.",
     fullDescription:"Pandoe is a mobile-based application integrated with machine learning designed to help Indonesian entrepreneurs to start, manage, and grow a business. ",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
@@ -254,7 +259,7 @@ export const listProyek = [
   {
     id: 4,
     image: Proyek,
-    title: "UNS WALLET",
+    title: "UNS WALLET - Mobile Digital Wallet Application",
     subtitle: "UNS WALLET is a mobile digital wallet application intended for Universitas Sebelas Maret...",
     fullDescription:"UNS WALLET is a mobile digital wallet application intended for Universitas Sebelas Maret students and stakeholders.",
     borderColor: "#3B82F6",
@@ -266,7 +271,7 @@ export const listProyek = [
     {
     id: 5,
     image: Proyek5,
-    title: "CekHoaksIdn",
+    title: "CekHoaksIdn - Hoax Detection System",
     subtitle: "Project research collaboration with my lecturer who studying at University Western Australia...",
     fullDescription:"Project research collaboration with my lecturer who studying at University Western Australia. CekHoaksIdn is a platform for combating misinformation in Indonesia utilize (Natural Language Processing) NLP which is IndoBERT model.",
     borderColor: "#3B82F6",
@@ -278,7 +283,7 @@ export const listProyek = [
   {
     id: 6,
     image: Proyek6,
-    title: "Nidejia Rent House",
+    title: "Nidejia Rent House - Web-Based Application for Renting Houses or Apartments",
     subtitle: "Nidejia Website is a web-based application for renting houses or apartments...",
     fullDescription:"Nidejia Website is a web-based application for renting houses or apartments, designed to be user-friendly. Users can browse available houses, make bookings, and complete payments easily. The website also has an administrator, serving as the back-end role, who acts as the owner of the rental properties.",
     borderColor: "#10B981",
@@ -300,6 +305,45 @@ export const listProyek = [
     demoUrl: "https://minesight.my.id",
     dad: "600",
   },
+
+  {
+    id: 8,
+    image: Proyek8,
+    title: "CCNA Network Enterprise Simulation - Technical Showcase",
+    subtitle: "Developed a Network Engineer Technical Showcase featuring a mini Network Operations Center...",
+    fullDescription:"Developed a Network Engineer Technical Showcase featuring a mini Network Operations Center dashboard and interactivedocumentation for an enterprise Cisco Packet Tracer topology.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #3B82F6, #000)",
+    url: "https://github.com/JulianD3wanto/CCNA-Portofolio-Website",
+    demoUrl: "https://ccna-network-portfolio.vercel.app/",
+    dad: "600",
+  },
+  {
+    id: 9,
+    image: Proyek9,
+    title: "Management Inventory System - Web Management with AI Assistant",
+    subtitle: "Developed Inventory Management System with features AI assistant..",
+    fullDescription:"Developed is a web-based inventory management system designed to help with product recording, stock monitoring, tracking stock changes, and generating reports. The system also features an AI assistant.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #3B82F6, #000)",
+    url: "https://github.com/JulianD3wanto/",
+    demoUrl: "https://inventoryapp-phi-pink.vercel.app/",
+    dad: "600",
+  },
+
+  {
+    id: 10,
+    image: Proyek10,
+    title: "Seminar GO - Educational Event Platform for Seminars and Webinars",
+    subtitle: "SeminarGO is an educational event platform for seminars and webinars...",
+    fullDescription:"SeminarGO is an educational event platform for seminars and webinars. It allows users to browse, explore, and register for various events — both paid and free — covering topics like technology, business, and personal development.",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://github.com/JulianD3wanto/seminar-laravel",
+    demoUrl: "https://seminargo.my.id",
+    dad: "200",
+  },
+
 ];
 
 
@@ -316,7 +360,7 @@ export const listExperience = [
   {
   id: 2,
   image: Experience3,
-  title: "PT. Petrokimia Gresik (10 Months)",
+  title: "PT. Petrokimia Gresik - (12 Months)",
   date: "August 2025 - Present",
   subtitle: "Magenta (Magang Generasi Bertalenta) BUMN IT Intern at risk management petrokimia gresik for six months and extended by VP Risk Management...",
   fullDescription: "MAGENTA (Magang Generasi Bertalenta) BUMN is an integrated internship ecosystem provided by the Ministry of State-Owned Enterprises for college students and recent graduates to gain professional work experience at state-owned enterprises. I served as an IT intern in the Risk Management department at PT Petrokimia Gresik for six months, and my internship was extended by the Vice President of Risk Management",
@@ -330,8 +374,8 @@ export const listExperience = [
     image: Experience2,
     title: "Dinas Komunikasi dan Informatika Statistik dan Persandian\n(3 Months)",
     date: "January 2025 - March 2025",
-    subtitle: "Internship at DISKOMINFO, where I developed the Surakarta website from scratch using PHP with the CodeIgniter framework, MySQL...",
-    fullDescription:"I developed the Surakarta website from scratch using PHP with the CodeIgniter framework, MySQL as the database, and supporting technologies such as Livewire and JavaScript to build dynamic and interactive features. I also designed the UI/UX in Figma, creating user-friendly layouts and clear user flows before implementation. Throughout the project, I applied clean code practices to ensure the codebase stayed readable, maintainable, and scalable.",
+    subtitle: "Internship at DISKOMINFO, where I developed the Surakarta website from scratch using PHP with the Laravel framework, MySQL...",
+    fullDescription:"I developed the Surakarta website from scratch using PHP with the Laravel framework, MySQL as the database, and supporting technologies such as Livewire and JavaScript to build dynamic and interactive features. I also designed the UI/UX in Figma, creating user-friendly layouts and clear user flows before implementation. Throughout the project, I applied clean code practices to ensure the codebase stayed readable, maintainable, and scalable.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://drive.google.com/file/d/1nKv5ChwBVU5XhUj-hOZfgH27BWaFCHw3/view?usp=drive_link",
